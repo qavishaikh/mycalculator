@@ -3,7 +3,7 @@ import {Text, View, Switch, TouchableOpacity} from 'react-native';
 
 const App = () => {
   const [darkTheme, setDarkTheme] = useState(false);
-  const [result, setResult] = useState('Calculator');
+  const [result, setResult] = useState('');
   const colors = {
     dark: '#22252D',
     dark1: '#292B36',
